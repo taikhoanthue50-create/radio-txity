@@ -6,8 +6,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // === CẤU HÌNH MÁY CHỦ TXITY ===
-const TXITY_SERVER = '127.0.0.1'; // <-- Thay bằng IP thật của server TXITY
-const TXITY_PORT = 1234;          // <-- Thay bằng Port thật của server TXITY
+const TXITY_SERVER = '51.77.216.96'; // <-- Thay bằng IP thật của server TXITY
+const TXITY_PORT = 5259;          // <-- Thay bằng Port thật của server TXITY
 
 // === DANH SÁCH 2 BÀI NHẠC ===
 const PLAYLIST = ['nhac1.mp3', 'nhac2.mp3'];
